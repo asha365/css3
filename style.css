@@ -1,0 +1,22 @@
+.box{
+
+    width: 400px;
+    height: 200px;
+    border: 5px solid paleturquoise;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+
+.box2{
+    width: 400px;
+    height: 300px;
+    border: 5px solid purple;
+   /* visibility: hidden; */
+
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+}

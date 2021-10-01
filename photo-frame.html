@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo frame</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width: 300px;
+            height: 300px;
+            border: 10px solid olive;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+        }
+    .photo img{
+        width: 100%;
+        height: 300px;
+        }
+    
+    .photo-detail{
+        position: absolute;
+        display: none;
+        width: 300px;
+        height: 300px;
+        top: 0;
+    }
+
+  
+    .photo-frame:hover .photo-detail{
+        display: block;
+        background-color: rgba(196, 192, 157, 0.4);
+
+    }
+    .photo-frame:hover .photo-detail h3{
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+
+    .photo-frame:hover .photo-detail p{
+        color: white;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>PHOTO BOOK</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo"><img src="images/natural-photo.jpg" alt="">
+            </div>
+        
+        <div class="photo-detail">
+            <h3>It is Deer</h3>
+            <p>Implantable intrathecal drug delivery systems (IDDSs) have been used to
+                manage refractory cancer pain, but there are no randomized clinical trial (RCT) data
+                comparing them with comprehensive medical management</p>
+        </div>
+
+    </div>
+    </section>
+</body>
+</html>
